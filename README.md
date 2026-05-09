@@ -1,10 +1,10 @@
-# 📦 Estoque Controle
+#  Estoque Controle
 
 Sistema de gerenciamento de estoque desenvolvido em Java puro, com arquitetura em camadas e operações de CRUD completas.
 
 ---
 
-## 🧱 Arquitetura
+##  Arquitetura
 
 O projeto segue separação de responsabilidades em três camadas:
 
@@ -17,7 +17,7 @@ Essa estrutura reflete o princípio de responsabilidade única: a camada `model`
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 | Operação | Descrição |
 |---|---|
@@ -28,7 +28,7 @@ Essa estrutura reflete o princípio de responsabilidade única: a camada `model`
 
 ---
 
-## 🔍 Destaques técnicos
+##  Destaques técnicos
 
 - **`Optional`** usado nas buscas por ID para evitar `NullPointerException`
 - **`Stream` + `filter`** para localizar produtos por ID de forma declarativa
@@ -37,7 +37,7 @@ Essa estrutura reflete o princípio de responsabilidade única: a camada `model`
 
 ---
 
-## 🚀 Como executar
+##  Como executar
 
 **Pré-requisitos:** Java 11+ e IntelliJ IDEA (ou qualquer IDE Java)
 
@@ -50,7 +50,7 @@ git clone https://github.com/magalhaesmateus/estoque-controle.git
 
 ---
 
-## 🔭 Próximos passos
+##  Próximos passos
 
 - [ ] Adicionar validação de estoque negativo na operação de venda
 - [ ] Integrar banco de dados (ex: SQLite ou PostgreSQL via JDBC)
@@ -59,7 +59,7 @@ git clone https://github.com/magalhaesmateus/estoque-controle.git
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Java 17
 - IntelliJ IDEA
